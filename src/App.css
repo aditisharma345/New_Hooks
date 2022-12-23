@@ -1,38 +1,307 @@
-.App {
+/* html, body, #app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+
+ 
+
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.flex-center {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.header-lg {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.header-sm {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+}
+
+.center-text {
   text-align: center;
+} */
+/* 
+.link {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-list {
+  margin: 20px 0;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-list li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-list svg {
+  margin-right: 10px;
+}
+
+.card-list a {
+  font-weight: 500;
+  color: inherit;
+}
+
+.bg-light {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.repo {
+  margin: 10px 0;
+  width: 250px;
+  padding: 20px;
+}
+
+.repo a {
+  text-decoration: none;
+}
+
+.repo img {
+  margin-bottom: 8px;
+}
+
+.instructions-container {
+  margin: 100px 0;
+}
+
+.container-sm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.battle-instructions {
+  padding: 0;
+  font-size: 25px;
+}
+
+.battle-instructions li {
+  flex: 1;
+  min-width: 300px
+}
+
+.battle-instructions svg {
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
+} */
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.player {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.player-label {
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.player-inputs input {
+  padding: 8px;
+  font-size: 16px;
+  flex: 2;
+  border-radius: 3px;
+  border: none;
+  box-shadow: inset 0 1px 2px rgba(132, 120, 235, 0.15);
+}
+
+.player-inputs .input-light {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.player-inputs button {
+  flex: 1;
+  margin-left: 10px;
+} */
+
+.btn {
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-btn {
+  color: #e6e6e6;
+  background-color: #141414;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dark-btn:disabled {
+  background-color: #f2f2f2;
+  color: #a2cbf4;
+}
+/* 
+.players-container {
+  margin: 100px 0;
+} */
+/* 
+.avatar-small {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.player-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.player-info .link {
+  margin-left: 10px;
+} */
+/* 
+.btn-space {
+  margin: 40px auto;
+}
+
+.error {
+  color: #ff1616;
+  font-size: 20px;
+  margin: 50px 0;
+} */
+@media (max-width:800px)
+{
+  .row {
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+
+}
+
+h1, p {
+  font-family: Lato;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #f9fbfb;
+}
+
+.accordion-title:hover {
+  background-color: #f9fbfb;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: #def9fe;
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
   }
+
+  .accordion {
+    width: 90%;
+  }
+}
+.btn-dark:hover{
+  background-color: #171717;
 }
